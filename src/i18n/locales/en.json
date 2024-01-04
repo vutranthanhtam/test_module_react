@@ -1,0 +1,56 @@
+{
+    "translation": {
+        "globalNav_hello": " Hello, ",
+        "globalNav_supHeaderTitle": "For great deals, create a VIP card here",
+        "globalNav_collection": "COLLECTION",
+        "globalNav_bfdBasic": "BLACK FRIDAY - Basic",
+        "globalNav_bfdDesign": "Black Friday - Design",
+        "globalNav_new": "New",
+        "supHeader_cartTitle": "You have (*) product in cart",
+        "globalNav_authenTitle": "Register/Login",
+        "globalNav_btnExit": "Logout",
+        "globalNav_btnProfile": "Profile",
+        "globalNav_btnAdmin": "Admin",
+
+        "authen_wellcom": "Welcome Back!",
+        "authen_login": "To keep connected with us please login with your personal info",
+        "authen_signIn": "Sign In",
+        "authen_home": "Go Home",
+        "authen_hello": "Hello, Friend!",
+        "authen_info": "Enter your personal details and start journey with us",
+        "authen_signUp": "Sign Up",
+
+        "signIn": "Login",
+        "signIn_acc": "Or you already have an account",
+        "signIn_password": "Forgot your password?",
+        "signIn_success" : "Logged in successfully!",
+
+        "signUp": "Create Account",
+        "sign_acc": "Or use your email to sign up",
+        "signUp_Input_UserName": "UserName",
+        "signUp_Input_Email": "Email",
+        "signUp_Input_Password": "Password",
+
+        "signUp_err_email": "Email already exists",
+        "signUp_err_userName": "User Name already exists",
+        "err_200": "Unexpected error",
+
+        "signIn_err_userName": "Username does not exist",
+        "signIn_err_password": "Incorrect password",
+
+        "signUp_success" : "Sign Up Success!",
+        "signUp_howToSignIn": "Would you like to log in now?",
+        "singUp_yes": "Yes",
+        "signUp_no": "No",
+
+        
+        "footer_products" : "Products",
+        "footer_products_shirt" : "Shirt",
+        "footer_products_pants" : "Pant",
+        "footer_products_footwear" : "Footwear",
+        "footer_contact" : "Contact",
+        "footer_about" : "YAME VN COMPANY LIMITED",
+        "footer_business_certificate" :"Business registration certificate: 0310874914 - Date of issue: November 25, 2011 - Issuing agency: Business Registration Office - Department of Planning and Investment of Ho Chi Minh City",
+        "footer_business_address":"Business registration address: 766/3B-3C Su Van Hanh (Extended), Ward 12, District 10, Ho Chi Minh City"
+    }
+}

@@ -1,0 +1,40 @@
+footer {
+    width: 100%;
+    height: $footerH;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    .logo{
+        width: 150px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+        img{
+            width: 150px;
+            height: 100px;
+        }
+    }
+    .content{
+        width: calc(100% - 150px);
+        height: 100%;
+        display: flex;
+        .container{
+            width: 250px;
+            height: 100%;
+            color: white;
+            .title{
+                color: orange;
+                font-size: $l;
+                padding-top: 20px;
+            }
+            i{
+                font-size: 30px;
+                margin-left: 15px;
+                
+                
+            }
+        }
+    }  
+}

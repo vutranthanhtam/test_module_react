@@ -1,0 +1,57 @@
+{
+    "translation": {
+        "globalNav_hello": " Xin chào,",
+        "globalNav_supHeaderTitle": "Để được mua giá tốt. Tạo thẻ VIP tại đây",
+        "globalNav_collection": "BỘ SƯU TẬP",
+        "globalNav_bfdBasic": "BLACK FRIDAY - Đơn Giản",
+        "globalNav_bfdDesign": "Black Friday - Thiết kế ",
+        "globalNav_new": "Mới",
+        "supHeader_cartTitle": "Bạn có (*) sản phẩm trong giỏ hàng",
+        "globalNav_authenTitle": "Đăng ký / Đăng nhập",
+        "globalNav_btnExit": "Đăng xuất",
+        "globalNav_btnProfile": "Hồ sơ",
+        "globalNav_btnAdmin": "Quản trị viên",
+        
+        "authen_wellcom": "Chào mừng trở lại!",
+        "authen_login": "Để duy trì kết nối với chúng tôi vui lòng đăng nhập bằng thông tin cá nhân của bạn",
+        "authen_signIn": "Đăng nhập",
+        "authen_home": "Trang chủ",
+        "authen_hello": "Chào bạn!",
+        "authen_info": "Nhập thông tin cá nhân của bạn và bắt đầu hành trình với chúng tôi",
+        "authen_signUp": "Đăng ký",
+        
+
+        "signIn": "Đăng nhập",
+        "signIn_acc": "Bạn đã có tài khoản",
+        "signIn_password": "Bạn đã quên mật khẩu?",
+        "signIn_success" : "Đăng nhập thành công!",
+
+
+        "signUp": "Tạo Tài Khoản",
+        "sign_acc": "Hoặc sử dụng email của bạn để đăng ký",
+       
+
+        "signUp_err_email": "Email đã tồn tại",
+        "signUp_err_userName": "Tên người dùng đã tồn tại",
+        "err_200": "Lỗi không xác định",
+
+        "signIn_err_userName": "Tên người dùng không tồn tại",
+        "signIn_err_password": "Mật khẩu không chính xác",
+
+
+        "signUp_success" : "Đăng ký thành công!",
+        "signUp_howToSignIn": "Bạn có muốn đăng nhập ngay bây giờ không?",
+        "singUp_yes": "Có",
+        "signUp_no": "Không",
+
+        "footer_products" : "Các sản phẩm",
+        "footer_products_shirt" : "Áo",
+        "footer_products_pants" : "Quần",
+        "footer_products_footwear" : "Giày - dép",
+        "footer_contact" : "Liên hệ",
+        "footer_about" : "CÔNG TY TNHH YAME VN",
+        "footer_business_certificate" :"Giấy CNĐKDN: 0310874914 - Ngày cấp: 25/11/2011 - Cơ quan cấp: Phòng Đăng Ký Kinh Doanh - Sở Kế Hoạch và Đầu Tư TP.HCM",
+        "footer_business_address":"Địa chỉ đăng ký kinh doanh: 766/3B-3C Sư Vạn Hạnh (Nối dài), Phường 12, Quận 10, TP.HCM"
+               
+    }
+}

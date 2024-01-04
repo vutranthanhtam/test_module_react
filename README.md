@@ -1,0 +1,1 @@
+receipt Status = shopping - pneding - accepted - shipping - done

@@ -1,0 +1,159 @@
+.home_page {
+    font-size: $m;
+    width: 100%;
+    min-height: 100vh;
+    header {
+      
+    }
+    .home_page_body {
+        width: 100%;
+        min-height: calc(100vh - (($headerH + $footerH + $supHeaderH) - ($carouselH + $productH)));
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        .body_content {
+          width: 100%;
+          max-width: $maxW;
+          .product_row {
+            color: black;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 550px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items:  flex-end;
+            position: relative;
+            padding: 15px;
+            border: 2px solid rgba(0, 0, 0, 0.564);
+            border-radius: 5px;
+            .logo {
+              position: absolute;
+              top: 0px;
+              left: calc(50% - 125px);
+              color: black; 
+              
+            }
+            .product_box {
+              background-color: white  ;
+              height: 83%;
+              width: 17%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-evenly; 
+              border: 1px solid whitesmoke;
+              &:hover{
+                border: 2px solid rgb(197, 189, 189);
+                color: rgba(0, 0, 255, 0.712);
+                background-color: white;
+              }
+              img {
+                width: 200px;
+                height: 200px;
+              }
+              .product_name {
+                height: 70px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                font-size: calc($l - 2px);
+                font-family: $fontKanit;
+              }
+              .product_price {
+                height: 40px;
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                text-align: center;
+                justify-content: center;
+                font-size: calc($l - 2px);
+                color: red;
+              }
+              .tools {
+                .buy_btn {
+                  height: 37px;
+                  width: 70px;
+                  border-radius: 5px;
+                  border: none;
+                  background-color: rgb(139, 133, 133);
+                  margin-right: 10px;
+                }
+                .detail_btn{
+                  height: 37px;
+                  width: 70px;
+                  border-radius: 5px;
+                  border: none;
+                  background-color: rgba(0, 0, 255, 0.71);
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+          
+        
+    }
+    footer {
+      
+    }
+
+}
+
+.lazyLoading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .loader {
+        width: 48px;
+        height: 48px;
+        border: 3px dotted #080808;
+        border-style: solid solid dotted dotted;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        animation: rotation 2s linear infinite;
+      }
+      .loader::after {
+        content: '';  
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border: 3px dotted #FF3D00;
+        border-style: solid solid dotted;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        animation: rotationBack 1s linear infinite;
+        transform-origin: center center;
+      }
+          
+      @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      } 
+      @keyframes rotationBack {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(-360deg);
+        }
+      } 
+}
